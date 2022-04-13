@@ -2,8 +2,3 @@ baseURL = 'https://aventures-sonores.github.io/test-site-hugo/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 
-params:
-  author: Aventures Sonores
-  description: Our site
-  favicon: /favicon.ico
-
