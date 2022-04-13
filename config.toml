@@ -6,3 +6,9 @@ title = 'My New Hugo Site'
 author = 'Aventures Sonores'
 description = 'Our site'
 favicon =  '/favicon.ico'
+
+[searchEngines]
+name = 'Google'
+activated = true
+icon = ['fab' ,'fa-google']
+url = 'https://google.com/search'
