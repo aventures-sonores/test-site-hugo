@@ -3,12 +3,81 @@ languageCode = 'en-us'
 title = 'My New Hugo Site'
 
 [params]
-author = 'Aventures Sonores'
-description = 'Our site'
-favicon =  '/favicon.ico'
+author = "Your Name"
+description = "A description of your site"
+favicon = "/favicon.ico"
 
-[searchEngines]
-name = 'Google'
-activated = true
-icon = ['fab' ,'fa-google']
-url = 'https://google.com/search'
+  [[params.searchEngines]]
+  name = "Google"
+  activated = true
+  icon = "fab fa-google"
+  url = "https://google.com/search"
+
+  [[params.searchEngines]]
+  name = "DuckDuckGo"
+  activated = true
+  icon = "fas fa-search"
+  url = "https://www.duckduckgo.com"
+
+  [[params.nav]]
+  name = "Gmail"
+  icon = "fas fa-envelope red"
+  url = "https://mail.google.com"
+
+  [[params.nav]]
+  name = "Twitter"
+  icon = "fab fa-twitter aqua"
+  url = "https://twitter.com"
+
+  [[params.nav]]
+  name = "Facebook"
+  icon = "fab fa-facebook blue"
+  url = "https://facebook.com"
+
+  [[params.bookmarks]]
+  group = "dev"
+  icon = "fas fa-code-branch"
+
+    [[params.bookmarks.items]]
+    name = "cloudflare"
+    url = "https://cloudflare.com"
+
+    [[params.bookmarks.items]]
+    name = "codepen.io"
+    url = "https://codepen.io"
+
+    [[params.bookmarks.items]]
+    name = "github"
+    icon = "fab fa-github"
+    url = "https://github.com"
+
+    [[params.bookmarks.items]]
+    name = "gitlab"
+    icon = "fab fa-gitlab"
+    url = "https://gitlab.com"
+
+  [[params.bookmarks]]
+  group = "docs"
+  icon = "fas fa-folder-open"
+
+    [[params.bookmarks.items]]
+    name = "docker"
+    url = "https://docs.docker.com/"
+
+    [[params.bookmarks.items]]
+    name = "puppet"
+    url = "https://puppet.com/docs/puppet/latest/"
+
+    [[params.bookmarks.items]]
+    name = "terraform"
+    url = "https://www.terraform.io/docs/"
+
+  [[params.bookmarks]]
+  group = "tools"
+  icon = "fas fa-tools"
+
+    [[params.bookmarks.items]]
+    name = "some site"
+
+    [[params.bookmarks.items]]
+    name = "another site"
